@@ -1,0 +1,6 @@
+var F = createFont("monospace");
+textFont(F);
+fill(91,207,163);
+textSize(40);
+text("Name: Samuel",70,102);
+text("Hello: Samuel",70,168);
