@@ -1,5 +1,7 @@
-let n = 17;
-let x = 3 + 6 + 9 + 12 + 15;
-console.log(n);
-console.log(x);
-console.log(n + x);
+var num = prompt("Number n = ?");
+var sum = 0;
+for (var i = 3; i <= num; i++) {
+   if (i % 3 === 0; || i % 5 ===0) {
+      sum += i;}  
+}
+console.log(sum);
