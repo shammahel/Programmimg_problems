@@ -1,0 +1,10 @@
+for (var i = 1; i <= 12; i++) {
+printTable(i);
+console.log(" ");
+}
+function printTable(n) {
+for (var i = 1; i <= 12; i++) {
+var r = n + " * " + i + " = " + n * i;
+console.log(r);
+}
+}
